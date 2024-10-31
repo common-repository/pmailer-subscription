@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pmailer_subscription_error
+{
+	color:red !important;
+	font-weight:bold !important;
+}
+
+.pmailer_subscription_success
+{
+	color:green !important;
+	font-weight:bold !important;
+}
+
+#pmailer_subscription_form, #pmailer_subscription_smart_form
+{
+	padding:5px !important;
+}
+#pmailer_subscription_submit
+{
+	text-align:center !important;
+	display: block !important;
+	margin: 5px auto auto auto !important;
+}
+#pmailer_sub_form_error, pmailer_sub_form_success, #pmailer_sub_form_status
+{
+    display:none;
+}
+
+#pmailer_sub_smart_header
+{
+	padding:0px !important; 
+	margin: 10px 0 10px 0 !important; 
+	background:none !important;
+	background-color:#FFFFFF !important;
+	font-size:26px !important;
+	font-weight: bold !important;
+	display:block !important;
+	clear:both !important;
+}
+#pmailer_smart_form
+{
+	background-color:#FFFFFF !important; 
+	border:1px solid black !important; 
+	padding:10px 10px 10px !important;
+}
+#pmailer_smart_form *
+{
+	color:#121212; 
+}
+
+#pmailer_smart_form input
+{
+	width:100% !important;
+	border:1px solid grey !important;
+	margin:0 0 10px 0 !important;
+	padding:0 !important;
+	background:none;
+}
+#pmailer_smart_form input.button
+{
+	background-color:#F0F0F0;
+	padding:3px !important;
+}
+#pmailer_smart_form input.button:hover
+{
+	cursor:pointer;
+}
+
+#pmailer_smart_form label, #pmailer_smart_form span
+{
+	font-size:14px;
+	text-align:left !important;
+	float:left !important;
+	margin:0 !important;
+	padding:0 !important;
+	display:block;
+	clear:both;
+}
+
+#pmailer_sub_smart_close
+{
+    position:absolute !important; 
+    top:-14px !important; 
+    right:-14px !important; 
+    cursor:pointer !important; 
+    background:none !important; 
+    margin:0 !important; 
+    padding:0 !important; 
+    border:none !important;
+}
